@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(139, 129, 129);
+    height: 11vh;
+    align-items: center;
+    
+}
+
+.footer__left{
+    padding-left: 2vw;
+    display: flex;
+
+}
+
+.footer__right{
+    width: 14vw;
+    display: flex;
+    padding-right: 4vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: -44px;
+}
+
+.footer__left > p{
+    margin-right: 1vw;
+}
+

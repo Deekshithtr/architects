@@ -1,0 +1,12 @@
+.boxes{
+    width: 1.5vh;
+    height: 1.5vh;
+   border: 1px solid #fff;
+   cursor: pointer;
+} 
+.boxes--backround{
+    background-color: rgb(212, 136, 65);
+    width: 13px;
+    height: 13px;
+}
+

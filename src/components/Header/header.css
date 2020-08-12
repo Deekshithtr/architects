@@ -1,0 +1,50 @@
+.header{
+    color: #fff;
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(100, 97, 97);
+}
+
+.header__home{
+    color: white;
+    margin-left: 20px;
+}
+
+.header__home-icon{
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    background-image: url('../../images/home.jpg');
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.header__left-contents{
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    justify-content: space-evenly;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.header__right-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    padding-right: 2vw;
+    cursor: pointer;
+} 
+
+.header__grey-contents{
+    color: rgb(139, 129, 129);
+}
+
+.header p:hover{
+    color: rgb(212, 136, 65);
+}
